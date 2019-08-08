@@ -7,6 +7,7 @@ def nothing(x):
 cap = cv2.VideoCapture(0)
 
 cv2.namedWindow('Tracking')
+
 cv2.createTrackbar('LH', 'Tracking', 0, 255, nothing)
 cv2.createTrackbar('LS', 'Tracking', 0, 255, nothing)
 cv2.createTrackbar('LV', 'Tracking', 0, 255, nothing)
